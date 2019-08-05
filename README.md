@@ -2,7 +2,7 @@
 
 ## Creating virtual environment ##
 
-First install python's 'virtualenv' package via pip :
+First install python's ```'virtualenv'``` package via pip :
 ```
 pip3.7 install virtualenv
 ```
@@ -33,7 +33,7 @@ pip3.7 install ...
 
 ## Configuration ##
 
-Create '.env' file in your folder or manually by
+Create ```'.env'```-file in your folder or manually by
 
 ```
 export "var"=path/to/smth
@@ -41,7 +41,7 @@ export "var"=path/to/smth
 
 it is used for creating variable environments
 
-1. create environment variable "ADV_APP_SETTING" by this command :
+1. create environment variable ```"ADV_APP_SETTING"``` by this command :
 
 ```
 export 'ADV_APP_SETTINGS'=path/to/config.yml
