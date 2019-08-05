@@ -3,8 +3,9 @@
 ## Creating virtual environment ##
 
 First install python's 'virtualenv' package via pip :
-
-'pip3.7 install virtualenv'
+```
+pip3.7 install virtualenv
+```
 
 Then create your environment by following command:
 
@@ -32,11 +33,11 @@ create JWK, use https://mkjwk.org; key_use=signing; algorithm=RS256; key_id=clie
 
 2. write JWK in '.env': 
 
-### CLIENT_AUTH_SERVICE_JWK={"kty": "RSA", "d": ...###
+CLIENT_AUTH_SERVICE_JWK={"kty": "RSA", "d": ...
 
-### AUTH_LONG_JWK={"kty": "RSA", "d": ... ###
+AUTH_LONG_JWK={"kty": "RSA", "d": ...
 
-### AUTH_SHORT_JWK={"kty": "RSA", "d": ... ###
+AUTH_SHORT_JWK={"kty": "RSA", "d": ...
 
 3. change redis/revoke/host in 'config.yml' from "REDIS_HOST, host" to "REDIS_HOST, localhost"
 
