@@ -47,13 +47,21 @@ it is used for creating variable environments
 export 'ADV_APP_SETTINGS'=path/to/config.yml
 ```
 
+or writing
+
+```
+ADV_APP_SETTINGS=path/to/config.yml
+```
+
+in ```.env```-file
+
 create JWK using  https://mkjwk.org;
 
 ```
 key_use=signing; algorithm=RS256; key_id=client_auth@key;
 ```
 
-2. write JWK in '.env'-file:
+2. write JWK in ```'.env'```-file:
 
 ```
 CLIENT_AUTH_SERVICE_JWK={"kty": "RSA", "d": ...
